@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #0077cc; /* Um azul temático */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.question {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #0077cc;
+    border-radius: 4px;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block; /* Faz cada opção ficar em uma linha */
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button#submit-btn, .cta-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff8c00; /* Um laranja vibrante */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none; /* Para o link CTA */
+    transition: background-color 0.3s ease;
+}
+
+button#submit-btn:hover, .cta-button:hover {
+    background-color: #cc7000; /* Laranja mais escuro */
+}
+
+#results {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #eaf7ff; /* Fundo azul claro para resultados */
+    border: 1px solid #0077cc;
+    border-radius: 5px;
+}
+
+#results h2 {
+    color: #ff8c00; /* Destaque laranja no título */
+}
+
+#profile-recs {
+    list-style: none;
+    padding-left: 0;
+}
+
+#profile-recs li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 3px solid #ff8c00;
+}
+
+.error-message {
+    color: #d9534f; /* Vermelho para erro */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 30px 0;
+}

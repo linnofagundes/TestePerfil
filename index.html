@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Viajante (4 Opções) - Floripa Experiência Exclusiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌴 Descubra seu Perfil de Viajante em Floripa! ✨</h1>
+        <p id="intro">Bem-vindo(a) à <strong>Floripa Experiência Exclusiva</strong>! Responda às 20 perguntas abaixo escolhendo a opção (a, b, c ou d) que melhor representa você quando pensa em viajar. Com base nas suas respostas, revelaremos seu perfil exclusivo e sugestões incríveis para sua aventura em Florianópolis!</p>
+
+        <form id="quiz-form">
+            <!-- Bloco 1: Energia (E/I) - q1 a q5 -->
+            <h2>Energia e Interação</h2>
+            <div class="question">
+                <p>1. Quando explora um novo lugar, você prefere:</p>
+                <label><input type="radio" name="q1" value="a" required> a) Mergulhar na agitação, participar de grandes tours e eventos.</label><br>
+                <label><input type="radio" name="q1" value="b"> b) Um ambiente tranquilo, talvez um café ou parque, para observar.</label><br>
+                <label><input type="radio" name="q1" value="c"> c) Explorar com um ou dois amigos próximos, em um ritmo mais calmo.</label><br>
+                <label><input type="radio" name="q1" value="d"> d) Conectar-se ativamente com locais e outros viajantes em grupos menores.</label>
+            </div>
+            <div class="question">
+                <p>2. Após um dia cheio de atividades, você geralmente se sente:</p>
+                <label><input type="radio" name="q2" value="a" required> a) Revigorado e pronto para mais interações sociais.</label><br>
+                <label><input type="radio" name="q2" value="b"> b) Necessitando urgentemente de tempo sozinho para recarregar.</label><br>
+                <label><input type="radio" name="q2" value="c"> c) Contente, mas preferindo uma noite tranquila em vez de sair novamente.</label><br>
+                <label><input type="radio" name="q2" value="d"> d) Estimulado pelas experiências, mas precisando processá-las socialmente.</label>
+            </div>
+            <div class="question">
+                 <p>3. Em um evento social durante a viagem (festa, luau), você:</p>
+                 <label><input type="radio" name="q3" value="a" required> a) É o centro das atenções, conversando com todos.</label><br>
+                 <label><input type="radio" name="q3" value="b"> b) Prefere ficar em um canto tranquilo, observando.</label><br>
+                 <label><input type="radio" name="q3" value="c"> c) Foca em conversas mais profundas com poucas pessoas.</label><br>
+                 <label><input type="radio" name="q3" value="d"> d) Circula e interage, mas em grupos menores e mais selecionados.</label>
+            </div>
+            <div class="question">
+                 <p>4. Sua ideia de atividade relaxante ideal em Floripa seria:</p>
+                 <label><input type="radio" name="q4" value="a" required> a) Um barzinho animado na Lagoa com amigos e música.</label><br>
+                 <label><input type="radio" name="q4" value="b"> b) Silêncio total em uma praia deserta com um livro.</label><br>
+                 <label><input type="radio" name="q4" value="c"> c) Uma caminhada tranquila pela natureza, talvez com um guia particular.</label><br>
+                 <label><input type="radio" name="q4" value="d"> d) Um jantar animado com um grupo interessante de pessoas.</label>
+            </div>
+            <div class="question">
+                 <p>5. Ao escolher um passeio, o que mais te motiva?</p>
+                 <label><input type="radio" name="q5" value="a" required> a) A chance de conhecer muitas pessoas novas e diferentes.</label><br>
+                 <label><input type="radio" name="q5" value="b"> b) A oportunidade de introspecção e conexão pessoal com o lugar.</label><br>
+                 <label><input type="radio" name="q5" value="c"> c) Uma experiência calma e profunda, mesmo que compartilhada com poucos.</label><br>
+                 <label><input type="radio" name="q5" value="d"> d) Interações significativas e trocas culturais com locais ou guias.</label>
+            </div>
+
+            <!-- Bloco 2: Processamento (S/N) - q6 a q10 -->
+            <h2>Processamento de Informações</h2>
+            <div class="question">
+                <p>6. Ao planejar sua viagem para Floripa, você tende a:</p>
+                <label><input type="radio" name="q6" value="a" required> a) Focar em fatos concretos: mapas, horários, reservas, o que é visível.</label><br>
+                <label><input type="radio" name="q6" value="b"> b) Pensar no "sentimento" da viagem, nas possibilidades e temas gerais.</label><br>
+                <label><input type="radio" name="q6" value="c"> c) Imaginar as experiências e conexões que podem surgir, mesmo sem detalhes.</label><br>
+                <label><input type="radio" name="q6" value="d"> d) Confiar em experiências passadas e recomendações práticas de outros.</label>
+            </div>
+            <div class="question">
+                 <p>7. O que te fascina mais em Florianópolis?</p>
+                 <label><input type="radio" name="q7" value="a" required> a) A beleza palpável das praias, a comida, a arquitetura visível.</label><br>
+                 <label><input type="radio" name="q7" value="b"> b) As lendas, a energia do lugar, os significados ocultos nas tradições.</label><br>
+                 <label><input type="radio" name="q7" value="c"> c) O potencial para descobertas inesperadas e conexões surpreendentes.</label><br>
+                 <label><input type="radio" name="q7" value="d"> d) A história comprovada, os fatos sobre os fortes e a colonização.</label>
+            </div>
+             <div class="question">
+                 <p>8. Quando explora um lugar novo, você costuma:</p>
+                 <label><input type="radio" name="q8" value="a" required> a) Seguir o roteiro e focar nos detalhes práticos e informações factuais.</label><br>
+                 <label><input type="radio" name="q8" value="b"> b) Desviar do caminho principal, seguindo a intuição e buscando o "clima".</label><br>
+                 <label><input type="radio" name="q8" value="c"> c) Imaginar como as coisas se conectam, buscando padrões e possibilidades.</label><br>
+                 <label><input type="radio" name="q8" value="d"> d) Usar um guia ou app confiável para garantir que não perca o essencial.</label>
+             </div>
+             <div class="question">
+                  <p>9. Que tipo de lembrança prefere trazer de Floripa?</p>
+                  <label><input type="radio" name="q9" value="a" required> a) Algo útil ou tradicional, que represente a cultura local de forma concreta.</label><br>
+                  <label><input type="radio" name="q9" value="b"> b) Um objeto que evoque um sentimento, uma ideia ou uma inspiração.</label><br>
+                  <label><input type="radio" name="q9" value="c"> c) Algo único e simbólico, mesmo que não seja prático.</label><br>
+                  <label><input type="radio" name="q9" value="d"> d) Fotos bem documentadas dos lugares visitados e experiências vividas.</label>
+             </div>
+             <div class="question">
+                  <p>10. Como prefere aprender sobre a história de Floripa?</p>
+                  <label><input type="radio" name="q10" value="a" required> a) Lendo placas, visitando museus com datas e fatos claros.</label><br>
+                  <label><input type="radio" name="q10" value="b"> b) Ouvindo histórias e lendas contadas por moradores.</label><br>
+                  <label><input type="radio" name="q10" value="c"> c) Imaginando a vida no passado e conectando eventos de forma mais abstrata.</label><br>
+                  <label><input type="radio" name="q10" value="d"> d) Através de um documentário ou tour guiado que apresente a sequência dos fatos.</label>
+             </div>
+
+            <!-- Bloco 3: Decisão (T/F) - q11 a q15 -->
+            <h2>Tomada de Decisão</h2>
+             <div class="question">
+                 <p>11. Ao escolher um restaurante, o mais importante é:</p>
+                 <label><input type="radio" name="q11" value="a" required> a) A lógica: eficiência, boas críticas objetivas, custo-benefício.</label><br>
+                 <label><input type="radio" name="q11" value="b"> b) A atmosfera: ambiente acolhedor, que gere bons sentimentos.</label><br>
+                 <label><input type="radio" name="q11" value="c"> c) A conexão: recomendações de amigos, história do lugar, impacto na comunidade.</label><br>
+                 <label><input type="radio" name="q11" value="d"> d) A verdade: qualidade comprovada dos ingredientes, técnica do chef.</label>
+             </div>
+             <div class="question">
+                  <p>12. Se um passeio é cancelado por chuva, sua reação é:</p>
+                  <label><input type="radio" name="q12" value="a" required> a) Analisar objetivamente as alternativas e escolher a mais lógica/eficiente.</label><br>
+                  <label><input type="radio" name="q12" value="b"> b) Pensar em como todos se sentem e escolher algo que agrade o grupo.</label><br>
+                  <label><input type="radio" name="q12" value="c"> c) Buscar uma atividade que mantenha a harmonia e o bem-estar emocional.</label><br>
+                  <label><input type="radio" name="q12" value="d"> d) Encontrar a solução mais justa e razoável para a situação.</label>
+             </div>
+              <div class="question">
+                  <p>13. Ao lidar com um vendedor insistente:</p>
+                  <label><input type="radio" name="q13" value="a" required> a) Você diz "não, obrigado" de forma clara, direta e objetiva.</label><br>
+                  <label><input type="radio" name="q13" value="b"> b) Você tenta ser gentil, talvez invente uma desculpa para não magoar.</label><br>
+                  <label><input type="radio" name="q13" value="c"> c) Você se preocupa em como sua recusa pode afetar o vendedor.</label><br>
+                  <label><input type="radio" name="q13" value="d"> d) Você analisa se a oferta faz sentido lógico antes de recusar firmemente.</label>
+             </div>
+             <div class="question">
+                   <p>14. O que é mais crucial em uma experiência de viagem?</p>
+                   <label><input type="radio" name="q14" value="a" required> a) Que seja eficiente, bem planejada e logicamente satisfatória.</label><br>
+                   <label><input type="radio" name="q14" value="b"> b) Que crie conexões emocionais significativas e momentos autênticos.</label><br>
+                   <label><input type="radio" name="q14" value="c"> c) Que promova harmonia, bem-estar e sentimentos positivos.</label><br>
+                   <label><input type="radio" name="q14" value="d"> d) Que seja justa, correta e cumpra o que foi prometido.</label>
+             </div>
+             <div class="question">
+                    <p>15. Ao dar feedback sobre um serviço:</p>
+                    <label><input type="radio" name="q15" value="a" required> a) Você foca na análise objetiva de prós e contras, de forma imparcial.</label><br>
+                    <label><input type="radio" name="q15" value="b"> b) Você considera o impacto emocional e tenta equilibrar críticas e elogios.</label><br>
+                    <label><input type="radio" name="q15" value="c"> c) Você se preocupa em como o feedback será recebido pela equipe.</label><br>
+                    <label><input type="radio" name="q15" value="d"> d) Você busca a verdade dos fatos e a clareza na comunicação dos problemas.</label>
+             </div>
+
+            <!-- Bloco 4: Abordagem (J/P) - q16 a q20 -->
+            <h2>Abordagem de Vida</h2>
+             <div class="question">
+                 <p>16. Como prefere que seu dia de viagem seja?</p>
+                 <label><input type="radio" name="q16" value="a" required> a) Estruturado com um plano claro e horários definidos.</label><br>
+                 <label><input type="radio" name="q16" value="b"> b) Aberto a possibilidades, decidindo muitas coisas no momento.</label><br>
+                 <label><input type="radio" name="q16" value="c"> c) Flexível, com uma ideia geral, mas pronto para mudar de planos.</label><br>
+                 <label><input type="radio" name="q16" value="d"> d) Organizado, com metas claras para cada dia, mas com alguma margem.</label>
+             </div>
+             <div class="question">
+                  <p>17. Ao encontrar uma trilha inesperada e interessante:</p>
+                  <label><input type="radio" name="q17" value="a" required> a) Você verifica se ela se encaixa no cronograma antes de decidir.</label><br>
+                  <label><input type="radio" name="q17" value="b"> b) Você provavelmente a explora, mesmo que mude os planos do dia.</label><br>
+                  <label><input type="radio" name="q17" value="c"> c) Você se sente animado com a descoberta e se adapta facilmente.</label><br>
+                  <label><input type="radio" name="q17" value="d"> d) Você anota para talvez voltar outro dia, priorizando o plano atual.</label>
+             </div>
+              <div class="question">
+                  <p>18. Listas e check-lists de viagem são:</p>
+                  <label><input type="radio" name="q18" value="a" required> a) Essenciais para garantir que tudo esteja organizado e sob controle.</label><br>
+                  <label><input type="radio" name="q18" value="b"> b) Limitadoras, prefiro a liberdade de não me prender a elas.</label><br>
+                  <label><input type="radio" name="q18" value="c"> c) Apenas um guia flexível, que pode ser ignorado se algo melhor surgir.</label><br>
+                  <label><input type="radio" name="q18" value="d"> d) Importantes para não esquecer nada, mas o roteiro pode ser ajustado.</label>
+             </div>
+             <div class="question">
+                   <p>19. Qual frase combina mais com seu estilo?</p>
+                   <label><input type="radio" name="q19" value="a" required> a) "Um lugar para cada coisa, e cada coisa em seu lugar." (Organização)</label><br>
+                   <label><input type="radio" name="q19" value="b"> b) "Deixa a vida me levar..." (Espontaneidade)</label><br>
+                   <label><input type="radio" name="q19" value="c"> c) "Adapte-se ou morra." (Flexibilidade)</label><br>
+                   <label><input type="radio" name="q19" value="d"> d) "É melhor prevenir do que remediar." (Planejamento)</label>
+             </div>
+             <div class="question">
+                    <p>20. Ao final de um dia, você se sente mais satisfeito quando:</p>
+                    <label><input type="radio" name="q20" value="a" required> a) Cumpriu tudo o que estava planejado no roteiro.</label><br>
+                    <label><input type="radio" name="q20" value="b"> b) Teve surpresas e descobertas que não estavam nos planos.</label><br>
+                    <label><input type="radio" name="q20" value="c"> c) Viveu o momento intensamente, independentemente do plano.</label><br>
+                    <label><input type="radio" name="q20" value="d"> d) Conseguiu equilibrar o planejado com alguma flexibilidade.</label>
+             </div>
+
+            <button type="button" id="submit-btn">Revelar meu Perfil!</button>
+            <p id="validation-error" class="error-message" style="display: none;">Por favor, responda todas as perguntas.</p>
+        </form>
+
+        <!-- A DIV de resultados permanece a mesma -->
+        <div id="results" style="display: none;">
+            <h2>Seu Perfil de Viajante Floripa: <span id="profile-name"></span></h2>
+            <p id="profile-desc"></p>
+            <h3>Recomendações para você em Florianópolis:</h3>
+            <ul id="profile-recs"></ul>
+            <hr>
+            <p>A <strong>Floripa Experiência Exclusiva</strong> é especialista em criar roteiros sob medida que combinam com o seu jeito único de viajar.</p>
+            <p><strong>Gostaria de explorar um pacote personalizado, pensado especialmente para você?</strong></p>
+            <a href="https://hotmart.com/pt-br/marketplace/produtos/floripa-exclusive-experience/Q98673386S" class="cta-button" target="_blank">Quero saber mais!</a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script> <!-- O nome do script continua o mesmo -->
+</body>
+</html>
