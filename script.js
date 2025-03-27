@@ -1,259 +1,259 @@
-// Dados dos Perfis (Permanece o mesmo da versão anterior)
+// Dados dos Perfis 
 const profiles = {
     "INTJ": {
         name: "O Estrategista Cultural",
         description: "Visionário, independente, adora planejar e otimizar. Busca conhecimento e experiências significativas, mas com eficiência.",
         recommendations: [
-            "Explore a história militar e arquitetônica dos Fortes (São José da Ponta Grossa, Santana, Ratones), analisando suas posições estratégicas.",
-            "Planeje um roteiro detalhado pelo Centro Histórico, incluindo o Museu Histórico de SC, a Alfândega e o Mercado Público (focando na arquitetura e história).",
-            "Faça uma visita técnica ou guiada à Ponte Hercílio Luz para entender sua engenharia e importância histórica.",
-            "Relaxe com uma leitura estratégica ou planejamento em um café tranquilo na Lagoa da Conceição, longe da agitação principal.",
-            "Visite o Museu de Arte de Santa Catarina (MASC) para analisar as exposições com um olhar crítico e apreciativo.",
-            "Analise os padrões das marés e planeje a visita à Lagoinha do Leste no momento ideal para fotografia ou travessia.",
-            "Participe de uma palestra ou evento na UFSC (verificar agenda) relacionado à história, arquitetura ou urbanismo.",
-            "Otimize um dia de viagem combinando a visita a Santo Antônio de Lisboa com a Rota Gastronômica do Sol Poente.",
-            "Pesquise e visite um sítio arqueológico menos conhecido, como os sambaquis na região sul da ilha.",
-            "Encontre um mirante como o Morro da Cruz ou o da Lagoa para ter uma visão panorâmica e estratégica da cidade."
+            "Decifre a história de Floripa analisando a arquitetura e a posição estratégica dos Fortes (São José, Santana, Ratones).",
+            "Mergulhe no Centro Histórico com um roteiro otimizado por você: Museu Histórico, Alfândega, Mercado Público - absorva cada detalhe arquitetônico.",
+            "Satisfaça sua curiosidade técnica com uma visita guiada à Ponte Hercílio Luz, focando em sua engenharia e impacto histórico.",
+            "Encontre seu refúgio intelectual: um café tranquilo na Lagoa, perfeito para leitura estratégica ou planejar os próximos passos da viagem.",
+            "Visite o MASC e analise as obras com seu olhar crítico, buscando compreender as intenções e técnicas por trás de cada peça.",
+            "Calcule o momento perfeito: use as tábuas de marés para planejar a travessia ou a sessão de fotos ideal na Lagoinha do Leste.",
+            "Expanda seus horizontes: participe de uma palestra ou evento na UFSC sobre história, arquitetura ou urbanismo (consulte a agenda!).",
+            "Otimize seu paladar: combine uma visita cultural a Santo Antônio de Lisboa com a eficiente Rota Gastronômica do Sol Poente.",
+            "Vá além do óbvio: pesquise e planeje uma visita a um sítio arqueológico menos conhecido, como os sambaquis do sul da ilha.",
+            "Obtenha uma visão panorâmica e estratégica da cidade em mirantes como o Morro da Cruz ou o da Lagoa – ideal para entender a geografia local."
         ]
     },
     "INTP": {
         name: "O Explorador Curioso",
         description: "Analítico, criativo, busca entender como as coisas funcionam. Adora explorar ideias e possibilidades, muitas vezes de forma independente.",
         recommendations: [
-            "Visite o Museu de Arqueologia e Etnografia (MArquE) na UFSC para mergulhar nas origens e culturas da ilha.",
-            "Explore trilhas menos conhecidas (ex: Trilha do Gravatá) e analise a geologia, flora e fauna local.",
-            "Participe de um workshop de ciência, tecnologia ou mesmo filosofia (se disponível) para estimular o intelecto.",
-            "Experimente a culinária local de forma analítica: vá ao Mercado Público e questione os vendedores sobre a origem e preparo dos produtos.",
-            "Investigue as lendas e mistérios da Ilha (bruxas, luzes) na Lagoa da Conceição, buscando explicações lógicas ou antropológicas.",
-            "Visite a Livraria Livros & Livros ou outros sebos no centro em busca de conhecimento e achados inesperados.",
-            "Explore o ecossistema único dos manguezais na região de Ratones ou Saco Grande.",
-            "Tente identificar constelações no céu noturno de uma praia mais afastada como a Solidão ou Naufragados.",
-            "Pesquise sobre a arquitetura açoriana e tente identificar seus elementos nas construções de Santo Antônio de Lisboa.",
-            "Faça um curso rápido de algo técnico e local, como identificar plantas nativas ou técnicas de pesca artesanal."
+            "Satisfaça sua sede de conhecimento no Museu de Arqueologia e Etnografia (MArquE/UFSC), desvendando as origens da ilha.",
+            "Aventure-se por trilhas menos exploradas (como a do Gravatá): analise a geologia, a flora e tente entender o ecossistema local.",
+            "Estimule seu cérebro: participe de um workshop de ciência, tecnologia ou debate filosófico que possa estar rolando.",
+            "Faça uma 'investigação' gastronômica no Mercado Público: questione vendedores sobre a origem e preparo dos produtos, desvende os sabores!",
+            "Investigue as lendas da Lagoa da Conceição (bruxas, luzes): busque explicações lógicas, antropológicas ou apenas divirta-se com as teorias.",
+            "Perca-se entre as estantes: explore livrarias e sebos no centro em busca daquele livro ou ideia que vai mudar sua perspectiva.",
+            "Analise um ecossistema único: explore a fascinante complexidade dos manguezais em Ratones ou no Saco Grande.",
+            "Mapeie o céu noturno: fuja da poluição luminosa em praias como Solidão ou Naufragados e tente identificar constelações.",
+            "Decodifique a arquitetura açoriana: procure e identifique seus elementos característicos nas construções de Santo Antônio de Lisboa.",
+            "Aprenda algo novo na prática: que tal um curso rápido para identificar plantas nativas ou entender técnicas de pesca artesanal?"
         ]
     },
     "ENTJ": {
         name: "O Líder Aventureiro",
         description: "Decidido, estratégico, gosta de liderar e assumir desafios. Busca experiências que permitam controle e conquista.",
         recommendations: [
-            "Organize e lidere um grupo para uma atividade desafiadora: trekking completo da Lagoinha do Leste ou surf avançado na Praia Mole.",
-            "Faça um curso intensivo de kitesurf ou windsurf na Lagoa da Conceição, buscando dominar a técnica rapidamente.",
-            "Planeje um dia eficiente combinando negócios (se aplicável) com lazer de alto nível, como um jantar gourmet seguido de evento em Jurerê Internacional.",
-            "Participe de um passeio de lancha privativo, definindo o roteiro, paradas e o ritmo da exploração das ilhas.",
-            "Negocie tarifas e condições vantajosas para aluguel de equipamentos ou tours, exercitando sua habilidade de comando.",
-            "Participe (ou organize) uma competição esportiva na praia, como vôlei ou futebol, liderando sua equipe.",
-            "Assuma a liderança na navegação e planejamento de uma trilha complexa como a do Morro das Aranhas.",
-            "Participe de um evento de networking ou conferência empresarial que possa estar ocorrendo na região.",
-            "Defina metas claras para a viagem e execute o plano com foco em alcançar todos os objetivos propostos.",
-            "Contrate um instrutor particular para uma aula avançada de um esporte aquático, visando a performance."
+            "Assuma a liderança: organize e motive um grupo para conquistar um desafio como o trekking completo da Lagoinha do Leste ou dominar as ondas da Praia Mole.",
+            "Busque a maestria: faça um curso intensivo de kitesurf ou windsurf na Lagoa, focando em dominar a técnica rapidamente.",
+            "Combine sucesso e prazer: planeje um dia que una negócios (se aplicável) a um lazer de alto nível, como um jantar gourmet seguido de um evento exclusivo em Jurerê.",
+            "Comande sua própria expedição: alugue uma lancha privativa e defina o roteiro, as paradas e o ritmo para explorar as ilhas e costas.",
+            "Exercite sua capacidade de negociação: consiga as melhores condições para aluguel de equipamentos ou tours exclusivos.",
+            "Mostre seu espírito competitivo: participe (ou organize!) um campeonato esportivo na praia, liderando sua equipe à vitória.",
+            "Navegue e conquiste: assuma a liderança no planejamento e execução de uma trilha complexa como a do Morro das Aranhas.",
+            "Amplie sua rede: participe de eventos de networking ou conferências empresariais que possam estar ocorrendo em Floripa.",
+            "Execute com precisão: defina metas claras para sua viagem e crie um plano estratégico para alcançar todos os seus objetivos.",
+            "Invista em performance: contrate um instrutor particular para uma aula avançada de um esporte, visando superar seus limites."
         ]
     },
     "ENTP": {
         name: "O Idealizador Criativo",
         description: "Inovador, curioso, adora debater ideias e explorar ângulos diferentes. Busca novidade e estímulo intelectual constante.",
         recommendations: [
-            "Explore a Ilha do Campeche, debatendo as teorias sobre as inscrições rupestres com guias e outros visitantes.",
-            "Participe de eventos culturais alternativos, feiras de inovação ou startups que possam estar ocorrendo na ilha.",
-            "Experimente 'hackear' o turismo: alugue um caiaque e explore cantos secretos da Lagoa, ou crie seu próprio tour temático.",
-            "Converse com locais em Santo Antônio de Lisboa ou na Costa da Lagoa, buscando perspectivas diferentes sobre a cultura e o futuro da ilha.",
-            "Provoque debates amistosos sobre temas polêmicos (gentrificação, sustentabilidade) em bares ou cafés locais.",
-            "Combine atividades improváveis: que tal filosofia na praia ou discutir física quântica após surfar?",
-            "Visite o Ecomuseu do Ribeirão da Ilha e questione os modelos de preservação cultural e ambiental.",
-            "Participe de uma oficina de escrita criativa ou improvisação teatral para exercitar a mente.",
-            "Sugira novas ideias ou soluções para problemas locais (ex: mobilidade) enquanto observa a dinâmica da cidade.",
-            "Procure por 'easter eggs' urbanos ou detalhes escondidos na arquitetura e arte de rua do centro."
+            "Explore a Ilha do Campeche e desafie as convenções: debata as teorias sobre as inscrições rupestres com guias e outros visitantes!",
+            "Busque o inesperado: participe de eventos culturais alternativos, feiras de inovação ou encontros de startups na ilha.",
+            "'Hackeie' o turismo: alugue um caiaque e descubra enseadas secretas na Lagoa, ou crie seu próprio tour temático e irreverente.",
+            "Conecte-se e questione: converse com locais em Santo Antônio ou na Costa da Lagoa, buscando perspectivas que desafiem o senso comum.",
+            "Estimule o debate: puxe conversas sobre temas instigantes (gentrificação, sustentabilidade) em bares e cafés, explorando todos os ângulos.",
+            "Crie conexões inusitadas: que tal discutir filosofia na praia após uma aula de surf, ou física quântica durante um pôr do sol?",
+            "Visite o Ecomuseu do Ribeirão da Ilha e questione os modelos existentes: como a preservação cultural e ambiental pode ser reinventada?",
+            "Exercite sua mente ágil: participe de uma oficina de escrita criativa, improvisação teatral ou até mesmo um 'escape room'.",
+            "Seja um 'consultor' informal: observe a dinâmica da cidade e brainstorm ideias criativas para problemas locais (mobilidade, turismo).",
+            "Procure por 'easter eggs' urbanos: descubra detalhes escondidos na arquitetura, na arte de rua ou nas histórias não oficiais do centro."
         ]
     },
     "INFJ": {
         name: "O Idealista Conectado",
         description: "Perspicaz, compassivo, busca significado e conexão profunda. Preocupa-se com o impacto de suas ações.",
         recommendations: [
-            "Participe de um projeto de voluntariado ambiental de curto prazo (Projeto Tamar, limpeza de praias com ONGs locais).",
-            "Visite e converse com moradores das comunidades tradicionais do Ribeirão da Ilha ou Costa da Lagoa, buscando entender genuinamente seu modo de vida.",
-            "Faça uma trilha contemplativa no Parque Estadual do Rio Vermelho ou na Trilha do Morro da Lagoa, focando na conexão interior e com a natureza.",
-            "Procure por retiros de yoga, meditação ou workshops de autoconhecimento que ocorram com vista para o mar ou em meio à natureza.",
-            "Escreva um diário de viagem focado nos insights e sentimentos despertados pelas experiências em Floripa.",
-            "Busque locais de silêncio e beleza natural, como o Canto dos Araçás ou a ponta da Praia da Solidão, para reflexão.",
-            "Engaje em conversas significativas com artesãos locais sobre o significado de seu trabalho e sua conexão com a cultura.",
-            "Visite a Catedral Metropolitana ou a Igreja da Lagoa da Conceição em horários tranquilos para um momento de paz e introspecção.",
-            "Apoie negócios locais e sustentáveis, como restaurantes orgânicos ou lojas de comércio justo.",
-            "Participe de uma roda de conversa ou evento focado em bem-estar, espiritualidade ou causas sociais."
+            "Faça a diferença: participe de um projeto de voluntariado ambiental (Projeto Tamar, limpeza de praias) e conecte-se com a causa.",
+            "Busque conexões autênticas: visite comunidades tradicionais (Ribeirão da Ilha, Costa da Lagoa) e converse com moradores, ouvindo suas histórias com empatia.",
+            "Recarregue na natureza: faça uma trilha contemplativa (Parque do Rio Vermelho, Morro da Lagoa), buscando insights e paz interior.",
+            "Nutra sua alma: participe de um retiro de yoga, meditação ou workshop de autoconhecimento em um cenário inspirador de Floripa.",
+            "Registre seus insights: mantenha um diário de viagem focado nos sentimentos, reflexões e significados despertados pelas experiências.",
+            "Encontre seu santuário: busque locais de silêncio e beleza profunda (Canto dos Araçás, Praia da Solidão) para momentos de introspecção.",
+            "Conecte-se com a arte local: converse com artesãos sobre o significado por trás de seu trabalho e sua conexão com a cultura.",
+            "Busque paz espiritual (ou simplesmente silêncio): visite a Catedral ou a Igreja da Lagoa em horários tranquilos.",
+            "Vote com seu dinheiro: apoie negócios locais que promovam sustentabilidade e comércio justo.",
+            "Compartilhe e aprenda: participe de uma roda de conversa sobre bem-estar, espiritualidade ou causas sociais."
         ]
     },
     "INFP": {
         name: "O Sonhador Romântico",
         description: "Sensível, criativo, guiado por seus valores. Busca beleza, autenticidade e experiências que toquem sua alma.",
         recommendations: [
-            "Passe um tempo nas praias tranquilas e inspiradoras como Solidão, Naufragados ou Saquinho, ideal para escrever, desenhar ou meditar.",
-            "Assista ao nascer ou pôr do sol em locais mágicos como o Morro da Cruz, Ponta das Campanhas (Daniela) ou Mirante da Lagoa.",
-            "Explore as galerias de arte, ateliês e cafés charmosos de Santo Antônio de Lisboa, absorvendo a atmosfera poética.",
-            "Caminhe pela natureza ouvindo sua música preferida, talvez na Trilha do Saquinho ou na Costa da Lagoa, buscando inspiração.",
-            "Encontre um local isolado na Praia do Matadeiro ou Gravatá para ler poesia ou um romance.",
-            "Visite o Museu Victor Meirelles (quando reaberto) ou procure exposições de arte que ressoem com sua sensibilidade.",
-            "Passeie por livrarias independentes ou sebos no centro, buscando obras que te toquem.",
-            "Escreva cartas ou postais para pessoas queridas, descrevendo a beleza e os sentimentos vividos em Floripa.",
-            "Explore o lado místico da ilha, pesquisando sobre as lendas das bruxas e visitando locais associados a elas na Lagoa.",
-            "Participe de um sarau de poesia ou uma apresentação intimista de música acústica."
+            "Encontre inspiração pura: passe tempo nas praias serenas como Solidão, Naufragados ou Saquinho – perfeitas para escrever, desenhar ou sonhar acordado.",
+            "Contemple a magia: assista ao nascer ou pôr do sol em locais que parecem saídos de um poema, como o Morro da Cruz ou a Ponta do Gravatá.",
+            "Deixe-se encantar: explore as ruelas, ateliês e cafés charmosos de Santo Antônio de Lisboa, absorvendo cada detalhe poético.",
+            "Crie sua trilha sonora: caminhe pela natureza exuberante (Trilha do Saquinho, Costa da Lagoa) ouvindo músicas que te inspiram.",
+            "Encontre seu ninho de leitura: descubra um local isolado na Praia do Matadeiro ou Gravatá para mergulhar em um livro que fale à sua alma.",
+            "Conecte-se com a arte sensível: visite exposições no MASC ou procure galerias que ressoem com sua busca por beleza e significado.",
+            "Perca-se em histórias: explore livrarias independentes e sebos no centro, buscando obras que despertem sua imaginação.",
+            "Compartilhe a beleza: escreva cartas ou postais para pessoas queridas, descrevendo as paisagens e os sentimentos que Floripa desperta.",
+            "Explore o lado místico: pesquise as lendas das bruxas e visite locais associados a elas na Lagoa, deixando a imaginação voar.",
+            "Alimente sua alma artística: participe de um sarau de poesia ou assista a uma apresentação intimista de música acústica."
         ]
     },
     "ENFJ": {
         name: "O Inspirador Social",
         description: "Carismático, empático, gosta de conectar e inspirar pessoas. Busca harmonia e experiências compartilhadas significativas.",
         recommendations: [
-            "Organize um encontro, piquenique ou happy hour com amigos (ou novos conhecidos) em um local agradável como o Jardim Botânico ou a Beira Mar Norte.",
-            "Participe ativamente de eventos culturais comunitários, como a Festa do Divino, Fenaostra ou apresentações no Teatro Ademir Rosa (CIC).",
-            "Faça um passeio de escuna animado, incentivando a interação entre os passageiros e conversando com a tripulação.",
-            "Conecte-se com ONGs locais (ambientais, sociais) e ofereça ajuda ou simplesmente aprenda sobre seus projetos inspiradores.",
-            "Lidere um grupo em uma atividade colaborativa, como uma caça ao tesouro fotográfica pela cidade.",
-            "Inicie conversas significativas que conectem diferentes grupos de viajantes ou locais em hostels, praças ou cafés.",
-            "Organize uma pequena celebração ou jantar temático utilizando ingredientes locais comprados no Mercado Público.",
-            "Inspire outros durante uma trilha em grupo, motivando e ajudando quem tiver dificuldades.",
-            "Facilite uma roda de conversa sobre experiências de viagem ou intercâmbio cultural.",
-            "Ofereça-se para ajudar a organizar um evento ou atividade no local onde está hospedado."
+            "Reúna as pessoas: organize um encontro acolhedor (piquenique, happy hour) em locais agradáveis como o Jardim Botânico ou a Beira Mar Norte.",
+            "Celebre junto: participe com entusiasmo de eventos culturais comunitários (Festa do Divino, Fenaostra) e conecte-se com o espírito local.",
+            "Seja o catalisador da diversão: em um passeio de escuna, incentive a interação, puxe conversa e garanta que todos se sintam incluídos.",
+            "Conecte-se com o propósito: visite ONGs locais, aprenda sobre seus projetos inspiradores e veja como pode apoiar ou divulgar.",
+            "Lidere pelo exemplo: organize uma atividade colaborativa e divertida, como uma gincana fotográfica pela cidade ou uma ação voluntária.",
+            "Crie pontes: inicie conversas que conectem diferentes grupos de pessoas em hostels, praças ou durante os passeios.",
+            "Compartilhe sabores e histórias: organize um jantar temático com ingredientes locais, incentivando a troca entre os convidados.",
+            "Motive o grupo: durante uma trilha, inspire confiança, ajude quem precisa e celebre as conquistas de todos.",
+            "Facilite o diálogo: promova uma roda de conversa sobre experiências de viagem, sonhos ou intercâmbio cultural.",
+            "Seja o anfitrião perfeito: ofereça ajuda na organização de eventos ou atividades onde estiver hospedado, criando um ambiente acolhedor."
         ]
     },
     "ENFP": {
         name: "O Explorador Entusiasmado",
         description: "Energético, criativo, espontâneo. Adora explorar novas possibilidades e conectar-se com pessoas de forma animada.",
         recommendations: [
-            "Experimente de tudo um pouco num só dia: aula de surf na Joaquina, sandboard nas dunas, explorar o centrinho da Lagoa e terminar em um bar com música ao vivo.",
-            "Visite feiras de artesanato (Lagoa, Praça XV) e converse animadamente com os artistas sobre suas inspirações e técnicas.",
-            "Faça amigos facilmente em um hostel, na praia ou durante uma atividade em grupo e junte-se a planos espontâneos que surgirem.",
-            "Explore a Costa da Lagoa de barco, parando em diferentes restaurantes e puxando conversa com os moradores e outros visitantes.",
-            "Descubra lugares 'secretos' ou menos turísticos perguntando para locais ou simplesmente se perdendo pelas ruas de bairros como Campeche ou Rio Tavares.",
-            "Participe de um workshop criativo de última hora (dança, percussão, pintura).",
-            "Inicie conversas com pessoas completamente diferentes de você em transportes públicos ou filas.",
-            "Experimente comidas de rua e petiscos de diferentes vendedores ambulantes.",
-            "Junte-se a um luau improvisado na praia ou a uma roda de violão.",
-            "Crie um roteiro temático divertido para um dia, como 'Em busca da melhor coxinha de Floripa' ou 'O dia das 7 praias'."
+            "Viva um dia de pura diversidade: aula de surf, sandboard nas dunas, explorar lojinhas na Lagoa e terminar dançando em um barzinho!",
+            "Conecte-se com a criatividade local: visite feiras de artesanato e converse animadamente com os artistas – quem sabe não surge uma ideia genial?",
+            "Faça amigos por onde passar: puxe papo em hostels, na praia, em passeios, e embarque em aventuras espontâneas que surgirem!",
+            "Explore a Costa da Lagoa como um local: pegue o barco, pare em restaurantes diferentes, converse com todo mundo e descubra os segredos.",
+            "Aventure-se fora do roteiro: peça dicas a moradores, explore bairros como Campeche ou Rio Tavares e veja onde o dia te leva!",
+            "Abrace a espontaneidade: participe de um workshop criativo de última hora (dança, percussão, arte) que encontrar pelo caminho.",
+            "Quebre o gelo: inicie conversas com pessoas inesperadas – no ônibus, na fila do mercado – e veja que histórias surgem.",
+            "Faça um tour gastronômico informal: experimente comidas de rua, petiscos de boteco e descubra os sabores autênticos da ilha.",
+            "Siga a música: junte-se a um luau na praia, uma roda de violão ou procure por apresentações de música ao vivo e dance!",
+            "Crie sua própria missão divertida: 'Em busca do pôr do sol perfeito', 'O dia das 7 trilhas fáceis' ou 'Descobrindo os cafés secretos'."
         ]
     },
     "ISTJ": {
         name: "O Planejador Prático",
         description: "Responsável, metódico, valoriza a ordem e a tradição. Prefere saber o que esperar e seguir planos confiáveis.",
         recommendations: [
-            "Faça um city tour guiado completo, com roteiro definido, cobrindo os principais pontos históricos (Catedral, Palácio Cruz e Sousa, Mercado Público).",
-            "Hospede-se em um hotel bem estabelecido e avaliado, com serviços previsíveis e confortáveis (ex: em Jurerê Tradicional, Centro ou Beira Mar Norte).",
-            "Visite o Mercado Público em um horário planejado, com uma lista de produtos tradicionais a experimentar ou comprar (ex: tainha, berbigão).",
-            "Siga um roteiro detalhado de carro ou ônibus de linha para visitar as praias do Norte (Canasvieiras, Ingleses, Daniela), apreciando a infraestrutura.",
-            "Utilize mapas físicos ou aplicativos confiáveis para navegação, conferindo rotas e tempos de deslocamento.",
-            "Visite os Fortes (Santana, São José) seguindo os horários de funcionamento e lendo todas as placas informativas.",
-            "Planeje as refeições em restaurantes tradicionais com boas recomendações de serviço e culinária típica comprovada.",
-            "Verifique a previsão do tempo e prepare um plano B detalhado para cada dia, caso chova.",
-            "Faça um checklist de todos os itens necessários para a viagem e confira-o rigorosamente.",
-            "Documente a viagem de forma organizada: fotos legendadas, diário com fatos e horários."
+            "Siga um roteiro confiável: faça um city tour guiado completo, cobrindo os pontos históricos essenciais (Catedral, Palácio, Mercado) de forma organizada.",
+            "Garanta conforto e previsibilidade: hospede-se em um hotel bem estabelecido, com boas avaliações e serviços que você já conhece.",
+            "Visite o Mercado Público com um plano: vá em um horário estratégico e experimente ou compre produtos tradicionais específicos da sua lista.",
+            "Explore com eficiência: siga um roteiro detalhado de carro ou ônibus para visitar as praias do Norte (Canasvieiras, Ingleses), aproveitando a infraestrutura.",
+            "Confie nos dados: utilize mapas detalhados e aplicativos de navegação confiáveis, conferindo rotas e tempos de deslocamento.",
+            "Visite os Fortes (Santana, São José) dentro dos horários, lendo as informações e entendendo sua função histórica passo a passo.",
+            "Planeje suas refeições: escolha restaurantes tradicionais com base em recomendações sólidas e cardápios claros.",
+            "Esteja preparado: verifique a previsão do tempo e tenha um plano B organizado e detalhado para cada dia.",
+            "Faça seu checklist: prepare e confira rigorosamente sua lista de itens essenciais para a viagem e para cada passeio.",
+            "Documente de forma organizada: tire fotos legendadas, anote fatos e horários em um diário para um registro fiel da viagem."
         ]
     },
     "ISFJ": {
         name: "O Protetor Tranquilo",
         description: "Gentil, dedicado, atencioso aos detalhes e ao bem-estar dos outros. Valoriza a harmonia e experiências seguras e agradáveis.",
         recommendations: [
-            "Visite as igrejas históricas (Catedral Metropolitana, N. Sra. da Conceição da Lagoa, N. Sra. das Necessidades em Santo Antônio) apreciando a arquitetura e a paz.",
-            "Passeie pela pacata Freguesia do Ribeirão da Ilha, almoçando em um restaurante tradicional de ostras com vista calma para o mar.",
-            "Faça uma aula de culinária focada em receitas tradicionais açorianas, cuidando dos detalhes do preparo.",
-            "Relaxe em praias familiares e de águas calmas como Daniela, Jurerê Tradicional ou Cacupé.",
-            "Prepare um piquenique com carinho, utilizando produtos locais, para desfrutar em um parque tranquilo como o Jardim Botânico.",
-            "Visite o Museu Histórico de Santa Catarina (Palácio Cruz e Sousa), prestando atenção aos detalhes da decoração e mobiliário.",
-            "Ajude amigos ou familiares a se sentirem confortáveis e seguros durante a viagem, antecipando suas necessidades.",
-            "Encontre um local agradável para observar os pescadores trabalhando em Pântano do Sul ou Armação.",
-            "Aprenda sobre o artesanato local, como a renda de bilro, valorizando a dedicação e a tradição.",
-            "Escolha um café aconchegante para um fim de tarde tranquilo, saboreando um doce local."
+            "Encontre paz e beleza: visite as igrejas históricas (Catedral, Lagoa, Santo Antônio) apreciando a arquitetura, a arte e a atmosfera serena.",
+            "Desfrute de um almoço sereno: passeie pela pacata Freguesia do Ribeirão da Ilha e saboreie ostras frescas em um restaurante tradicional com vista calma.",
+            "Aprenda com carinho: faça uma aula de culinária focada em receitas tradicionais açorianas, prestando atenção a cada detalhe do preparo.",
+            "Relaxe com segurança: escolha praias familiares e de águas mansas como Daniela, Jurerê Tradicional ou Cacupé para momentos de descanso.",
+            "Prepare um gesto de carinho: monte um piquenique com produtos locais e desfrute em um parque tranquilo como o Jardim Botânico.",
+            "Aprecie os detalhes do passado: visite o Museu Histórico (Palácio Cruz e Sousa), observando com calma a decoração e o mobiliário de época.",
+            "Cuide do seu grupo: antecipe as necessidades de seus companheiros de viagem, garantindo que todos se sintam confortáveis e bem cuidados.",
+            "Observe a tradição com calma: encontre um local agradável para ver os pescadores trabalhando em Pântano do Sul ou na Armação.",
+            "Valorize o trabalho manual: aprenda sobre o delicado artesanato local, como a renda de bilro, apreciando a dedicação envolvida.",
+            "Aconchegue-se: escolha um café charmoso para um fim de tarde tranquilo, saboreando um doce local e uma boa companhia."
         ]
     },
     "ESTJ": {
         name: "O Gerenciador Eficiente",
         description: "Organizado, prático, assertivo. Gosta de estrutura, eficiência e de ver resultados concretos.",
         recommendations: [
-            "Planeje um dia produtivo: reunião (se aplicável) pela manhã, almoço de negócios eficiente, seguido de visita objetiva a um ponto turístico principal (ex: Mirante da Ponte Hercílio Luz).",
-            "Escolha restaurantes e passeios com base em eficiência (serviço rápido, fácil acesso, boas críticas logísticas).",
-            "Alugue um carro para otimizar o tempo de deslocamento entre diferentes regiões da ilha (Norte, Sul, Leste).",
-            "Participe de um tour focado em produção (cervejaria artesanal, fazenda de ostras) que explique o processo de forma clara e objetiva.",
-            "Crie um itinerário detalhado com horários realistas para cada atividade, incluindo tempo de deslocamento.",
-            "Opte por voos diretos e reserve transfers com antecedência para garantir pontualidade e eficiência na chegada e saída.",
-            "Lidere a tomada de decisões do grupo de forma prática e focada em resultados (ex: qual praia visitar, onde almoçar).",
-            "Utilize aplicativos de gerenciamento de tarefas ou planilhas para organizar o roteiro e o orçamento da viagem.",
-            "Escolha atividades que tenham um objetivo claro e mensurável (ex: completar uma trilha em X tempo, visitar Y pontos turísticos).",
-            "Priorize a funcionalidade na escolha da hospedagem e dos serviços (bom Wi-Fi, estacionamento fácil, check-in/out rápido)."
+            "Maximize seu tempo: planeje um dia produtivo com reuniões (se aplicável), almoço eficiente e visitas objetivas aos pontos turísticos chave.",
+            "Escolha com base na eficiência: opte por restaurantes, passeios e serviços com base em rapidez, acesso fácil e boas críticas logísticas.",
+            "Otimize a locomoção: alugue um carro e planeje as rotas mais eficientes para se deslocar entre as diferentes regiões da ilha.",
+            "Entenda os processos: participe de um tour focado em produção (cervejaria, ostras) que explique tudo de forma clara e objetiva.",
+            "Crie seu plano mestre: desenvolva um itinerário detalhado com horários realistas, incluindo tempos de deslocamento e margens de segurança.",
+            "Garanta pontualidade: opte por voos diretos e reserve transfers com antecedência para uma chegada e saída sem contratempos.",
+            "Lidere as decisões do grupo: de forma prática, ajude a escolher as melhores opções focando nos objetivos e no tempo disponível.",
+            "Organize-se digitalmente: utilize aplicativos de gerenciamento de tarefas ou planilhas para controlar o roteiro e o orçamento.",
+            "Defina e cumpra metas: escolha atividades com objetivos claros (completar trilha X, visitar Y pontos) e foque em realizá-las.",
+            "Priorize a funcionalidade: escolha hospedagem e serviços que ofereçam o essencial para sua eficiência (bom Wi-Fi, check-in rápido, etc.)."
         ]
     },
     "ESFJ": {
         name: "O Anfitrião Sociável",
         description: "Amigável, sociável, adora ajudar e conectar pessoas. Valoriza a harmonia social e tradições comunitárias.",
         recommendations: [
-            "Organize um almoço ou jantar animado para amigos ou família em um restaurante agradável na Avenida das Rendeiras (Lagoa) ou em Santo Antônio de Lisboa.",
-            "Participe ativamente de festas locais, festivais gastronômicos (Fenaostra) ou eventos comunitários, interagindo com todos.",
-            "Escolha um resort com boa infraestrutura social (Costão do Santinho) e participe entusiasticamente das atividades em grupo.",
-            "Faça um passeio de escuna conhecido pela animação, música e interação entre os passageiros, garantindo que todos se divirtam.",
-            "Certifique-se de que todos no seu grupo de viagem estejam confortáveis, felizes e incluídos nas atividades.",
-            "Puxe conversa com funcionários de hotéis, restaurantes e lojas, elogiando o serviço e criando um ambiente positivo.",
-            "Organize jogos de praia ou atividades em grupo que promovam a cooperação e a diversão coletiva.",
-            "Visite o Mercado Público e interaja com os vendedores, interessando-se por suas histórias e produtos.",
-            "Leve pequenos presentes ou lembrancinhas para agradecer a hospitalidade ou gentilezas recebidas.",
-            "Participe de um almoço comunitário ou evento beneficente, se houver oportunidade, contribuindo para a harmonia local."
+            "Reúna quem você gosta: organize um almoço ou jantar animado em um restaurante acolhedor na Lagoa ou em Santo Antônio de Lisboa.",
+            "Celebre a cultura local: participe com entusiasmo de festas populares, festivais gastronômicos e eventos comunitários, interagindo com todos.",
+            "Escolha um ambiente social: opte por um resort com boa infraestrutura de lazer (Costão do Santinho) e participe ativamente das atividades em grupo.",
+            "Espalhe alegria: faça um passeio de escuna animado, puxe conversa, elogie a música e garanta que todos estejam se divertindo juntos.",
+            "Cuide do bem-estar de todos: certifique-se de que seus companheiros de viagem estejam confortáveis, felizes e se sentindo incluídos.",
+            "Crie conexões por onde passar: converse com funcionários de hotéis, restaurantes e lojas, elogie o trabalho e crie um clima positivo.",
+            "Promova a diversão em grupo: organize jogos na praia ou atividades colaborativas que unam as pessoas e garantam boas risadas.",
+            "Interaja no Mercado Público: converse com os vendedores, interesse-se por suas histórias e experimente os produtos com entusiasmo.",
+            "Mostre sua gratidão: leve pequenas lembranças ou ofereça ajuda como forma de agradecer a hospitalidade e gentilezas.",
+            "Contribua para a comunidade: se possível, participe de um almoço beneficente ou evento voluntário, fortalecendo os laços locais."
         ]
     },
     "ISTP": {
         name: "O Aventureiro Independente",
         description: "Prático, observador, adora entender como as coisas funcionam e resolver problemas de forma manual. Busca liberdade e ação.",
         recommendations: [
-            "Alugue uma bicicleta ou moto e explore estradas secundárias, trilhas off-road (permitidas) e praias menos acessíveis por conta própria.",
-            "Experimente atividades que exijam habilidade manual e foco: pescaria embarcada, mergulho autônomo (montando seu equipamento), ou uma aula prática de cerâmica/entalhe em madeira.",
-            "Faça trilhas desafiadoras (Lagoinha do Leste via Matadeiro, Morro das Aranhas) onde precise usar habilidades de orientação e improviso.",
-            "Observe e entenda a mecânica das embarcações de pesca no Pântano do Sul ou na Barra da Lagoa.",
-            "Visite uma oficina local (bicicletas, pranchas de surf) e converse com os profissionais sobre as técnicas de reparo.",
-            "Tente consertar algo simples que quebre durante a viagem (óculos de sol, mochila) com as ferramentas que tiver.",
-            "Aprenda uma habilidade prática rápida com um local, como fazer uma rede de pesca simples ou preparar um peixe.",
-            "Explore a Ilha do Campeche com foco na logística da travessia e nas formações rochosas.",
-            "Monte seu próprio kit de primeiros socorros e ferramentas básicas para a viagem.",
-            "Experimente andar de skate no skatepark da Costeira ou em outros picos da cidade."
+            "Explore no seu ritmo: alugue uma bicicleta ou moto e desbrave estradas secundárias e trilhas off-road (permitidas) com total liberdade.",
+            "Coloque a mão na massa: experimente atividades que exijam habilidade e foco, como pescaria, mergulho (montando seu equipamento!) ou uma aula prática de cerâmica.",
+            "Teste suas habilidades: enfrente trilhas desafiadoras (Lagoinha do Leste via Matadeiro) usando sua orientação e capacidade de improviso.",
+            "Desvende a mecânica local: observe e tente entender como funcionam as embarcações de pesca no Pântano do Sul ou na Barra da Lagoa.",
+            "Visite os 'bastidores': converse com mecânicos em oficinas de bikes ou pranchas de surf, aprendendo sobre os reparos e ajustes.",
+            "Seja autossuficiente: se algo simples quebrar, tente consertar você mesmo com as ferramentas que tiver à mão.",
+            "Aprenda fazendo: peça a um local para te ensinar uma habilidade prática rápida, como fazer um nó de marinheiro ou limpar um peixe.",
+            "Analise a logística: explore a Ilha do Campeche observando a operação das travessias e as formações geológicas da ilha.",
+            "Prepare seu kit de sobrevivência: monte seu próprio conjunto de primeiros socorros e ferramentas essenciais para a aventura.",
+            "Sinta a adrenalina sobre rodas: experimente andar de skate no skatepark da Costeira ou procure outros picos pela cidade."
         ]
     },
     "ISFP": {
         name: "O Artista Livre",
         description: "Sensível, artístico, charmoso. Vive o presente e busca beleza e experiências estéticas em harmonia com seus valores.",
         recommendations: [
-            "Explore a beleza cênica de praias como Gravatá, Galheta (respeitando o naturismo opcional) ou Joaquina (fora da área de surf) para fotografar, pintar ou simplesmente absorver a estética.",
-            "Passeie pelas ruas coloridas de Santo Antônio de Lisboa e do Centro Histórico, visitando ateliês de arte, lojas de design e brechós.",
-            "Experimente um workshop de arte (aquarela, cerâmica, fotografia, biojoias) inspirado nas paisagens e materiais locais.",
-            "Curta música ao vivo (MPB, jazz, blues) em um bar com atmosfera agradável e estética cuidada na Lagoa, Campeche ou Santo Antônio.",
-            "Colete conchas, pedras e folhas na praia para criar uma pequena obra de arte temporária ou levar como lembrança sensorial.",
-            "Visite a Feira de Artesanato da Lagoa da Conceição ou da Praça XV, apreciando a originalidade e beleza das peças.",
-            "Encontre uma cachoeira tranquila (Costa da Lagoa, Solidão) para um momento de conexão estética com a natureza.",
-            "Fotografe detalhes: texturas da areia, cores do pôr do sol, arquitetura das casas açorianas.",
-            "Desenhe ou faça croquis das paisagens urbanas ou naturais em um caderno de viagem.",
-            "Desfrute de uma refeição em um restaurante com decoração charmosa e pratos visualmente atraentes."
+            "Capture a beleza única: explore praias como Gravatá ou Galheta para fotografar, pintar, desenhar ou simplesmente absorver a estética natural.",
+            "Inspire-se nas cores e formas: passeie pelas ruas charmosas de Santo Antônio de Lisboa e do Centro, visitando ateliês, lojas de design e brechós.",
+            "Expresse sua criatividade: participe de um workshop de arte (aquarela, cerâmica, fotografia) utilizando as paisagens e materiais locais como musa.",
+            "Envolva-se com a música: curta apresentações ao vivo (MPB, jazz) em bares com atmosfera acolhedora e decoração inspiradora.",
+            "Crie arte efêmera: colete conchas, pedras e folhas na praia e crie uma instalação temporária na areia, ou leve-os como lembrança sensorial.",
+            "Aprecie o talento local: visite feiras de artesanato e admire a originalidade, as texturas e a beleza das peças feitas à mão.",
+            "Conecte-se com a serenidade: encontre uma cachoeira tranquila (Costa da Lagoa, Solidão) e deixe a beleza do lugar tocar sua alma.",
+            "Fotografe os detalhes: capture a textura da areia molhada, as nuances de cor do pôr do sol, os detalhes da arquitetura açoriana.",
+            "Registre suas impressões: mantenha um caderno de viagem com desenhos, colagens ou pequenos textos sobre suas experiências estéticas.",
+            "Saboreie com os olhos (e a boca!): escolha um restaurante com decoração charmosa e pratos que sejam uma obra de arte."
         ]
     },
     "ESTP": {
         name: "O Caçador de Emoções",
         description: "Energético, pragmático, adora ação, desafios e viver o momento com intensidade. Busca adrenalina e resultados imediatos.",
         recommendations: [
-            "Pratique surf nas ondas desafiadoras da Praia Mole ou Joaquina, ou faça aulas se for iniciante.",
-            "Experimente o sandboard nas dunas da Joaquina, buscando velocidade e manobras.",
-            "Faça Kitesurf ou Windsurf na Lagoa da Conceição em dias de vento forte, sentindo a adrenalina.",
-            "Salte de Parapente do Morro da Lagoa ou da Praia Mole para uma vista radical e emocionante.",
-            "Explore a vida noturna agitada de Jurerê Internacional (beach clubs) ou do centrinho da Lagoa (bares e festas).",
-            "Alugue um Jet Ski em Canasvieiras ou Jurerê para corridas e manobras na água.",
-            "Participe de trilhas de downhill de bicicleta em áreas designadas (se disponíveis e com segurança).",
-            "Assista (ou participe, se tiver nível) de campeonatos locais de surf, skate ou outros esportes radicais.",
-            "Faça um passeio de lancha em alta velocidade contornando a ilha ou visitando praias acessíveis apenas por mar.",
-            "Aposte em jogos amistosos na praia (futebol, vôlei, frescobol) com amigos ou locais."
+            "Sinta a adrenalina nas ondas: pegue sua prancha e encare o surf desafiador da Praia Mole ou Joaquina.",
+            "Deslize em alta velocidade: experimente o sandboard nas dunas íngremes da Joaquina e sinta o vento no rosto.",
+            "Domine o vento e a água: faça Kitesurf ou Windsurf na Lagoa da Conceição em dias de vento forte para pura emoção.",
+            "Voe sobre Floripa: salte de Parapente do Morro da Lagoa ou da Praia Mole para uma descarga de adrenalina e vistas incríveis.",
+            "Viva a noite intensamente: explore os beach clubs badalados de Jurerê ou a agitação dos bares e festas no centrinho da Lagoa.",
+            "Acelere na água: alugue um Jet Ski e sinta a velocidade e a liberdade de manobrar na Baía Norte.",
+            "Busque desafios sobre rodas: se tiver experiência, procure por trilhas de downhill de bicicleta em locais apropriados.",
+            "Acompanhe a ação: assista a campeonatos locais de surf, skate ou outros esportes radicais e sinta a energia da competição.",
+            "Explore em alta velocidade: faça um passeio de lancha rápido, contornando a ilha ou visitando praias isoladas.",
+            "Aposte na diversão: participe de jogos competitivos na praia (futebol, vôlei) com disposição total!"
         ]
     },
     "ESFP": {
         name: "O Celebrador Vibrante",
         description: "Entusiasmado, sociável, espontâneo. Adora se divertir, entreter os outros e aproveitar ao máximo as experiências sensoriais do presente.",
         recommendations: [
-            "Curta os beach clubs badalados de Jurerê Internacional ou da Praia Brava, com música, drinks e gente bonita.",
-            "Participe de aulas de dança (forró, samba, zouk) ou simplesmente caia na pista em festas na praia ou bares dançantes.",
-            "Experimente toda a variedade de comidas e bebidas locais: sequência de camarão, pastel de berbigão, cachaças artesanais, sucos naturais.",
-            "Faça um passeio divertido de Stand Up Paddle (SUP) com amigos ao pôr do sol na Lagoa da Conceição ou em praias calmas.",
-            "Vá às compras em busca de roupas de praia estilosas, óculos de sol e acessórios vibrantes na Lagoa ou no centro.",
-            "Cante em um karaokê animado ou assista a shows de comédia stand-up.",
-            "Tire muitas fotos e selfies em locais icônicos e paisagens deslumbrantes, compartilhando a alegria.",
-            "Organize uma festa temática improvisada na sua hospedagem ou um piquenique animado na praia.",
-            "Participe de um bloco de Carnaval de rua ou ensaio (se for a época), mesmo que seja só para sentir a energia.",
-            "Experimente todos os sabores de sorvete artesanal que encontrar pela ilha."
+            "Brilhe nos beach clubs: curta a vibe animada, a música e os drinks nos points badalados de Jurerê Internacional ou Praia Brava.",
+            "Solte o corpo: participe de aulas de dança (forró, samba!) ou simplesmente se jogue na pista em festas na praia ou bares dançantes.",
+            "Delicie-se com tudo: experimente a famosa sequência de camarão, pastel de berbigão, caipirinhas, cachaças artesanais – aproveite cada sabor!",
+            "Divirta-se no mar: faça um passeio animado de Stand Up Paddle (SUP) com amigos ao pôr do sol, com muitas risadas e fotos.",
+            "Renove o visual: vá às compras em busca de roupas de praia estilosas, óculos de sol e acessórios coloridos para arrasar na ilha.",
+            "Solte a voz (ou as risadas!): cante sem medo em um karaokê ou assista a um show de comédia stand-up para se divertir.",
+            "Registre a alegria: tire muitas fotos e selfies em locais lindos e momentos divertidos, compartilhando sua vibe contagiante.",
+            "Crie sua própria festa: organize uma celebração temática improvisada ou um piquenique super animado na praia.",
+            "Entre no clima de festa: se for a época, participe de um bloco de Carnaval de rua ou ensaio, nem que seja só para dançar e sentir a energia!",
+            "Faça um tour doce: experimente todos os sabores exóticos e deliciosos de sorvete artesanal que encontrar pela ilha!"
         ]
     }
 };
